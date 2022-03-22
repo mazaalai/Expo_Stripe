@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import {View, TextInput, StyleSheet, Text, Button} from "react-native";
 import {CardField, useConfirmPayment} from "@stripe/stripe-react-native";
 
-const API_URL = "http://192.168.56.1:3000";
+const API_URL = "http://keen-cheesecake-41ae97.netlify.app/:3000";
 
 const StripeApp = (props) => {
     const[email, setEmail] = useState();
